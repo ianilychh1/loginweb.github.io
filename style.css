@@ -1,0 +1,104 @@
+.inputbox input {
+  background: linear-gradient(
+    to left,
+    #00A9FF,
+    #66CBFF
+  );
+  color: white;
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(15px);
+  border-radius: 0px;
+  font-family: Roboto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.inputbox {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputbox ion-icon {
+  color: white;
+}
+
+section {
+  background: url("https://images.unsplash.com/photo-1681956122712-c3ac8799bb2c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=clark-van-der-beken-kMKPWoJ66ZY-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.forget {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.forget label {
+  color: white;
+  margin-right: 5px;
+}
+.login {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.login button ion-icon {
+  color: white;
+}
+
+.login button {
+  color: white;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.forget a {
+  color: white;
+  text-decoration: none;
+}
+
+.account a {
+  color: white;
+  text-decoration: none;
+}
+
+.account {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

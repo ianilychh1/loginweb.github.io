@@ -1,104 +1,94 @@
-.inputbox input {
-  background: linear-gradient(
-    to left,
-    #00A9FF,
-    #66CBFF
-  );
-  color: white;
-  border: 1px solid #FFFFFF;
-  backdrop-filter: blur(15px);
-  border-radius: 0px;
-  font-family: Roboto;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
-.inputbox {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-.inputbox ion-icon {
-  color: white;
-}
-
-section {
-  background: url("https://images.unsplash.com/photo-1681956122712-c3ac8799bb2c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=clark-van-der-beken-kMKPWoJ66ZY-unsplash.jpg");
-  background-position: center;
+body {
+  font-size: 15pt;
+  font-family: 'Inter', sans-serif;
+  background: url(https://unsplash.com/photos/ZHGh3WaaTf4/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjkyNzM0NDg0fA&force=true);
   background-size: cover;
+  background-position: center;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   position: relative;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: Roboto;
-}
-
-.forget {
-  display: flex;
-  position: relative;
+#inputbox {
+  width: 80%;
+  padding: 8px;
+  backdrop-filter: blur(5px);
+  background: #0000009C;
+  color: gray;
+  border: 1px solid #444444;
+  margin: 8px;
+  border-radius: 50px;
   align-items: center;
   justify-content: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  transition: ease-in-out .1s;
 }
 
-.forget label {
-  color: white;
-  margin-right: 5px;
-}
-.login {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.login button ion-icon {
-  color: white;
-}
-
-.login button {
-  color: white;
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
+input {
+  font-family: 'Inter', sans-serif;
+  width: 80%;
   background: transparent;
-  border: 2px solid #FFFFFF;
-  margin-left: 3px;
-  margin-right: 3px;
+  outline: none;
+  border: none;
+  color: gray;
+  margin: auto;
+  padding: auto;
+  transition: ease-in-out .1s;
 }
 
-.forget a {
+input:focus,
+input:hover {
   color: white;
-  text-decoration: none;
 }
 
-.account a {
+ion-icon {
+  margin: auto;
+  padding: auto;
+  font-size: 16px;
+  transition: ease-in-out .1s;
+}
+
+#inputbox:hover {
+  border: 1.5px solid #515151;
   color: white;
-  text-decoration: none;
 }
 
-.account {
+button {
+  width: 86%;
+  padding: 8px;
+  backdrop-filter: blur(5px);
+  background: #0000009C;
+  color: gray;
+  border: 1px solid #444444;
+  margin: 8px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out .1s;
+}
+
+button:hover,
+button:focus {
+  border: 1.5px solid #515151;
+  color: white;
+}
+
+.content {
+  background: #00000054;
+  backdrop-filter: blur(1px);
+  width: 100%;
+  height: 100vh;
   display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }

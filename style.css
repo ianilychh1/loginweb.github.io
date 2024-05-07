@@ -58,7 +58,7 @@ ion-icon {
 }
 
 #inputbox:hover {
-  border: 1.5px solid #515151;
+  border: 1.5px solid #ffffff;
   color: white;
 }
 
@@ -78,7 +78,7 @@ button {
 
 button:hover,
 button:focus {
-  border: 1.5px solid #515151;
+  border: 1.5px solid #ffffff;
   color: white;
 }
 
